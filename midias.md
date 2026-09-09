@@ -26,6 +26,10 @@ O arquivo de posts traz 19 imagens destacadas e 18 imagens internas. Elas foram 
 
 Na implementação, essas imagens devem ser baixadas para o novo repositório e servidas localmente. Até lá, os Markdown preservam os URLs originais para não perder referência de origem.
 
+## Arquivos locais
+
+As quatro fotos candidatas foram copiadas para `assets/images/`, com origem, uso previsto e status registrados em `assets/images/README.md`. A implementação deve gerar derivados responsivos a partir desses originais.
+
 ## Próxima curadoria visual
 
 1. Abrir e avaliar os quatro retratos ou registros candidatos em desktop e celular.
