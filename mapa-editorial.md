@@ -26,7 +26,7 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 
 **Conteúdo:**
 - frase de entrada;
-- autor, professor e consultor, com links discretos para Flow Climate e QuilomboFlow;
+- autor, professor e consultor, com links discretos para Flow Climate e QuilomboFlow e destaque para a Aprender Tecnologia como frente atual;
 - os três movimentos da prática;
 - evidências breves de trajetória e repertório;
 - destaques do que está acontecendo agora;

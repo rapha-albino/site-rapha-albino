@@ -55,13 +55,14 @@ Leitura feita em 9 de setembro de 2026, a partir do site atual e do acervo local
 - Docência desde 2011.
 - Autoria de *Métricas Ágeis*, *Antes de Mim* e coautoria de *Dynamic Flow*.
 - Fundação da Flow Climate e da QuilomboFlow, apresentadas por links discretos para seus próprios sites.
+- Cofundação da Aprender Tecnologia, como frente atual de ensino e construção.
 - Produção continuada de textos, aulas e materiais sobre sistemas, trabalho, gestão e tecnologia.
 
 ## Lacunas a preencher antes de publicar
 
 Estas informações não devem ser inventadas nem inferidas a partir do acervo:
 
-1. **Links dos empreendimentos:** Flow Climate em `https://flowclimate.com.br` e QuilomboFlow em `https://quilomboflow.com/`.
+1. **Link da Aprender Tecnologia:** URL pública a confirmar.
 2. **Agora:** lista curta e datada do que Raphael está fazendo neste momento.
 3. **Prática:** problemas prioritários, formatos de colaboração e perfil das pessoas ou organizações com quem Raphael quer trabalhar agora.
 4. **Casos e clientes:** quais marcas, resultados, depoimentos e relatos têm autorização e ainda fazem sentido exibir.
