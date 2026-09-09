@@ -54,22 +54,21 @@ Leitura feita em 9 de setembro de 2026, a partir do site atual e do acervo local
 - Liderança na Plataformatec e atuação no Nubank.
 - Docência desde 2011.
 - Autoria de *Métricas Ágeis*, *Antes de Mim* e coautoria de *Dynamic Flow*.
-- Fundação da Flow Climate e da QuilomboFlow.
+- Fundação da Flow Climate e da QuilomboFlow, apresentadas por links discretos para seus próprios sites.
 - Produção continuada de textos, aulas e materiais sobre sistemas, trabalho, gestão e tecnologia.
 
 ## Lacunas a preencher antes de publicar
 
 Estas informações não devem ser inventadas nem inferidas a partir do acervo:
 
-1. **Flow Climate:** propósito, estado atual, público e o que pode ser comunicado publicamente.
-2. **QuilomboFlow:** propósito, estado atual, público e o que pode ser comunicado publicamente.
-3. **Agora:** lista curta e datada do que Raphael está fazendo neste momento.
-4. **Prática:** problemas prioritários, formatos de colaboração e perfil das pessoas ou organizações com quem Raphael quer trabalhar agora.
-5. **Casos e clientes:** quais marcas, resultados, depoimentos e relatos têm autorização e ainda fazem sentido exibir.
-6. **Participações:** seleção de podcasts, palestras ou entrevistas que merecem curadoria pública.
-7. **Contato:** canal preferido, expectativa de resposta e eventual formulário.
-8. **Imagens:** seleção de retratos, imagens de trabalho e critérios de uso.
-9. **Newsletter:** decisão sobre manter, reformular ou remover a inscrição.
+1. **Links dos empreendimentos:** URLs públicas da Flow Climate e da QuilomboFlow.
+2. **Agora:** lista curta e datada do que Raphael está fazendo neste momento.
+3. **Prática:** problemas prioritários, formatos de colaboração e perfil das pessoas ou organizações com quem Raphael quer trabalhar agora.
+4. **Casos e clientes:** quais marcas, resultados, depoimentos e relatos têm autorização e ainda fazem sentido exibir.
+5. **Participações:** seleção de podcasts, palestras ou entrevistas que merecem curadoria pública.
+6. **Contato:** canal preferido, expectativa de resposta e eventual formulário.
+7. **Imagens:** seleção de retratos, imagens de trabalho e critérios de uso.
+8. **Newsletter:** decisão sobre manter, reformular ou remover a inscrição.
 
 ## Recorte recomendado para a primeira versão
 

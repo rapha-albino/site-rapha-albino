@@ -26,7 +26,7 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 
 **Conteúdo:**
 - frase de entrada;
-- autor, professor, consultor e fundador da Flow Climate e da QuilomboFlow;
+- autor, professor e consultor, com links discretos para Flow Climate e QuilomboFlow;
 - os três movimentos da prática;
 - evidências breves de trajetória e repertório;
 - destaques do que está acontecendo agora;
@@ -50,7 +50,7 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 **Conteúdo:**
 - desenvolvimento e pesquisa;
 - Plataformatec e Nubank;
-- Flow Climate e QuilomboFlow;
+- Flow Climate e QuilomboFlow, com links para seus sites próprios em vez de descrição extensa;
 - ensino desde 2011;
 - escrita e livros publicados;
 - o que cada passagem ensinou Raphael a enxergar.
