@@ -10,4 +10,4 @@ O site será a casa pública de uma prática que une sistemas, pessoas e transfo
 
 ## Status
 
-Arquitetura editorial definida em [mapa-editorial.md](mapa-editorial.md), material existente mapeado em [inventario-conteudo.md](inventario-conteudo.md), recorte da primeira versão em [primeira-versao.md](primeira-versao.md) e hipótese da página Prática em [pratica.md](pratica.md). Nenhuma tecnologia foi escolhida ainda.
+Arquitetura editorial definida em [mapa-editorial.md](mapa-editorial.md), material existente mapeado em [inventario-conteudo.md](inventario-conteudo.md), recorte da primeira versão em [primeira-versao.md](primeira-versao.md), hipótese da página Prática em [pratica.md](pratica.md), trajetória em [trajetoria.md](trajetoria.md) e direção de imagens em [midias.md](midias.md). Nenhuma tecnologia foi escolhida ainda.

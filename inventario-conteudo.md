@@ -11,7 +11,7 @@ Leitura feita em 9 de setembro de 2026, a partir do site atual e do acervo local
 | Home | Apresentação, mentoria, treinamentos, números, depoimentos, logos de clientes, posts selecionados e CTA | Desmembrar: frase de entrada, evidências, destaques atuais e caminhos de navegação |
 | Sobre | Texto de trajetória, formação, Plataformatec, Nubank e docência | Base de `Trajetória`, com revisão factual e narrativa |
 | Serviços | Mentoria e treinamentos, com linguagem de pensamento sistêmico | Base parcial de `Prática`, reescrita a partir de situações e intervenções |
-| Blog | Textos sobre trabalho, agilidade, propósito e métricas | Base de `Escrita` e de destaques na Home |
+| Blog | 19 textos sobre trabalho, agilidade, propósito e métricas, já exportados para `content/blog/` | Base de `Escrita` e de destaques na Home |
 | Livros | Página existente, a ser inspecionada e atualizada | Parte de `Escrita` |
 | Podcasts | Página existente, a ser inspecionada | Manter apenas como participações curadas |
 
@@ -25,6 +25,13 @@ Leitura feita em 9 de setembro de 2026, a partir do site atual e do acervo local
 - A chamada comercial usa promessas amplas, como “crescimento acelerado” e “próximo nível”, que não correspondem ao posicionamento escolhido.
 
 ## Acervo local disponível
+
+### Migração do blog atual
+
+- 19 posts exportados como Markdown em `content/blog/`, preservando título, datas, slug, URL de origem, conteúdo e imagem destacada.
+- Exportação bruta preservada em `content/wordpress-posts-export.json` para conferência de fidelidade.
+- 37 referências de mídia, entre imagens destacadas e internas, registradas em `content/wordpress-media-inventory.json`.
+- A migração preserva os slugs atuais; a implementação deve manter essas rotas no domínio para não quebrar links ou busca orgânica.
 
 ### Livros e escrita autoral
 
