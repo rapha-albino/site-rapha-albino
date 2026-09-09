@@ -11,7 +11,7 @@ As imagens devem dar corpo à presença de Raphael, não ilustrar uma ideia abst
 | Retrato de abertura | `https://rapha-albino.com.br/wp-content/uploads/2025/01/foto-albino.jpg` | Retrato quadrado. Candidato principal para a Home. |
 | Trabalho e fala pública | `https://rapha-albino.com.br/wp-content/uploads/2025/01/foto_2023_2-800x1200.jpg` | Raphael explicando algo. Candidato para Prática ou Trajetória. |
 | Trajetória | `https://rapha-albino.com.br/wp-content/uploads/2025/01/img-site-sobre-800x1046.png` | Imagem hoje usada na página Sobre. Avaliar resolução e recorte. |
-| Ensino ou contexto de trabalho | `https://rapha-albino.com.br/wp-content/uploads/2022/02/IMG-20190921-WA0014.jpg` | Usada hoje em Serviços. Confirmar contexto e autorização antes de publicar. |
+| Ensino ou contexto de trabalho | `https://rapha-albino.com.br/wp-content/uploads/2022/02/IMG-20190921-WA0014.jpg` | Uso aprovado. Registro de aula para sustentar a dimensão coletiva do ensino. |
 
 ## Imagens a tratar com cuidado
 
@@ -30,5 +30,5 @@ Na implementação, essas imagens devem ser baixadas para o novo repositório e 
 
 1. Abrir e avaliar os quatro retratos ou registros candidatos em desktop e celular.
 2. Escolher um retrato principal para a Home e duas imagens de apoio.
-3. Confirmar quais logos e fotos de contextos profissionais podem continuar públicos.
+3. Confirmar quais logos de clientes podem continuar públicos.
 4. Complementar somente as lacunas reais com imagens novas, nunca com banco de imagens genérico por padrão.

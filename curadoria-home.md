@@ -22,11 +22,11 @@ Raphael aparece explicando algo, em movimento. É a melhor evidência visual de 
 
 ### Ensino em contexto coletivo
 
-**Candidata, sujeita a confirmação de autorização:** `IMG-20190921-WA0014.jpg`.
+**Aprovada para uso:** `IMG-20190921-WA0014.jpg`.
 
 `https://rapha-albino.com.br/wp-content/uploads/2022/02/IMG-20190921-WA0014.jpg`
 
-A foto mostra uma sala de aula real e dá escala à dimensão de formação. Só deve entrar se as pessoas retratadas e a instituição puderem aparecer publicamente.
+A foto mostra uma sala de aula real e dá escala à dimensão de formação. Ela pode entrar como evidência visual de ensino e capacidade coletiva.
 
 ### Imagem a deixar em reserva
 
@@ -73,6 +73,5 @@ Eles continuam acessíveis em Escrita e preservam a história do pensamento publ
 
 ## Decisões ainda abertas
 
-1. Confirmar o uso da foto de sala de aula.
-2. Escolher qual frente atual entra como destaque logo após a abertura.
-3. Decidir se *Antes de Mim* ou Aprender Tecnologia ocupa esse destaque inicial.
+1. Escolher qual frente atual entra como destaque logo após a abertura.
+2. Decidir se *Antes de Mim* ou Aprender Tecnologia ocupa esse destaque inicial.
