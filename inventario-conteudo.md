@@ -62,7 +62,7 @@ Leitura feita em 9 de setembro de 2026, a partir do site atual e do acervo local
 
 Estas informações não devem ser inventadas nem inferidas a partir do acervo:
 
-1. **Link da Aprender Tecnologia:** URL pública a confirmar.
+1. **Links dos empreendimentos:** Flow Climate em `https://flowclimate.com.br`, QuilomboFlow em `https://quilomboflow.com/` e Aprender Tecnologia em `https://aprd.tech/`.
 2. **Agora:** lista curta e datada do que Raphael está fazendo neste momento.
 3. **Prática:** problemas prioritários, formatos de colaboração e perfil das pessoas ou organizações com quem Raphael quer trabalhar agora.
 4. **Casos e clientes:** quais marcas, resultados, depoimentos e relatos têm autorização e ainda fazem sentido exibir.

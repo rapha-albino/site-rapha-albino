@@ -20,7 +20,7 @@ A primeira versão não tenta transformar todo o acervo em site. Ela organiza o 
 - os três movimentos: sentido, clareza e intervenções;
 - trajetória em uma linha: tecnologia, pesquisa, liderança, ensino, escrita e construção própria;
 - links discretos para [Flow Climate](https://flowclimate.com.br) e [QuilomboFlow](https://quilomboflow.com/);
-- destaque para a Aprender Tecnologia como frente atual de ensino e construção;
+- destaque para a [Aprender Tecnologia](https://aprd.tech/) como frente atual de ensino e construção;
 - destaque de uma obra, texto ou atividade atual;
 - caminhos para Prática, Escrita e Contato.
 
