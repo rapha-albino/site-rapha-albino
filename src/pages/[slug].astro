@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { posts, displayDate } from "../lib/blog";
+export async function getStaticPaths() {
+  return (await posts()).map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+const { post } = Astro.props;
+---
+<BaseLayout title={`${post.title} — Raphael Albino`} description={post.title}><article class="wrap article"><p class="eyebrow">texto · <time datetime={post.publishedAt}>{displayDate(post.publishedAt)}</time></p><h1>{post.title}</h1>{post.featuredImage && <img src={post.featuredImage} alt={post.featuredImageAlt || ""} />}<div class="article-content" set:html={post.html} /></article></BaseLayout>

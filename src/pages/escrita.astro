@@ -1,0 +1,6 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { posts, displayDate } from "../lib/blog";
+const all = await posts();
+---
+<BaseLayout title="Escrita — Raphael Albino"><section class="wrap"><p class="eyebrow">escrita</p><h1>Livros e textos para pensar com mais precisão.</h1><p class="lede">Escrever é parte da minha prática. É onde investigo sistemas, trabalho, tecnologia, identidade e as perguntas que atravessam tudo isso.</p><div class="grid"><article class="card"><h3>Métricas Ágeis</h3><p>Um livro sobre usar métricas para enxergar o sistema, não vigiar pessoas.</p><a href="https://metricasageis.com.br">Conhecer o livro</a></article><article class="card"><h3>Dynamic Flow</h3><p>Em coautoria, uma leitura sistêmica para a construção de produtos digitais.</p><a href="https://softwarezen.com.br/dynamic-flow/">Conhecer o livro</a></article><article class="card"><h3>Antes de Mim</h3><p>Ensaios sobre raça, trabalho, ancestralidade e cotidiano.</p><a href="https://antesdemim.art.br/">Conhecer o livro</a></article></div></section><section class="wrap"><p class="eyebrow">arquivo</p><h2>Textos publicados</h2><div class="posts">{all.map((post) => <article class="post"><time datetime={post.publishedAt}>{displayDate(post.publishedAt)}</time><h3><a href={`/${post.slug}/`}>{post.title}</a></h3></article>)}</div></section></BaseLayout>

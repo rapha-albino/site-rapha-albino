@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+interface Props { title?: string; description?: string }
+const { title = "Raphael Albino", description = "Autor, professor e consultor." } = Astro.props;
+const current = Astro.url.pathname;
+const links = [["Prática", "/pratica/"], ["Trajetória", "/trajetoria/"], ["Escrita", "/escrita/"], ["Agora", "/agora/"], ["Contato", "/contato/"]];
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(current, "https://rapha-albino.com.br")} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+    <header><a class="brand" href="/">raphael albino<span>.</span></a><nav aria-label="Principal">
+      {links.map(([label, href]) => <a href={href} aria-current={current === href ? "page" : undefined}>{label}</a>)}
+    </nav></header>
+    <main id="conteudo"><slot /></main>
+    <footer><p>Raphael Albino, autor, professor e consultor.</p><p><a href="mailto:raphalbino@gmail.com">raphalbino@gmail.com</a> · <a href="https://www.linkedin.com/in/rapha-albino/">LinkedIn</a></p></footer>
+  </body>
+</html>
