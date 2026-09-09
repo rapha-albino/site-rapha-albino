@@ -10,4 +10,4 @@ O site será a casa pública de uma prática que une sistemas, pessoas e transfo
 
 ## Status
 
-Arquitetura editorial definida em [mapa-editorial.md](mapa-editorial.md). Nenhuma tecnologia foi escolhida ainda.
+Arquitetura editorial definida em [mapa-editorial.md](mapa-editorial.md) e material existente mapeado em [inventario-conteudo.md](inventario-conteudo.md). Nenhuma tecnologia foi escolhida ainda.
