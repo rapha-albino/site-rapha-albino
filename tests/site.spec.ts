@@ -8,6 +8,9 @@ test("home presents the practice and its primary paths", async ({ page }) => {
     await expect(page.getByRole("link", { name, exact: true }).first()).toBeVisible();
   }
   await expect(page.getByRole("link", { name: /conhecer a flow climate/i })).toHaveAttribute("href", "https://flowclimate.com.br");
+  const primary = page.getByRole("link", { name: "Conheça minha prática" });
+  await primary.hover();
+  await expect(primary).toHaveCSS("color", "rgb(255, 255, 255)");
 });
 
 test("preserves WordPress post slugs", async ({ page }) => {
