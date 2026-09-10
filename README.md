@@ -27,4 +27,4 @@ Depois de revisar a homologação, publique a mesma versão na produção com:
 npm run deploy:production
 ```
 
-O script gera `dist/` e sincroniza os arquivos estáticos via SSH. Os diretórios legados do WordPress permanecem excluídos até a Umbler removê-los.
+O script gera `dist/` e publica apenas os arquivos estáticos no repositório Git da Umbler via SSH. A Umbler faz o checkout dessa versão em produção.
