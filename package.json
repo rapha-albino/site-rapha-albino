@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "test:e2e": "playwright test",
-    "deploy:homologation": "vercel --prod --yes --scope quilab",
+    "deploy:homologation": "npx vercel --prod --yes --scope quilab",
     "deploy:production": "sh scripts/deploy-umbler.sh"
   },
   "dependencies": {
