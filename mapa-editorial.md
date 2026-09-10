@@ -55,15 +55,21 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 - escrita e livros publicados;
 - o que cada passagem ensinou Raphael a enxergar.
 
-### Escrita
+### Livros
 
-**Função:** apresentar a obra escrita como parte central da prática.
+**Função:** apresentar a obra publicada como parte central da prática.
 
 **Conteúdo:**
 - *Métricas Ágeis*;
 - *Dynamic Flow*;
-- *Antes de Mim*;
-- textos, ensaios e artigos;
+- *Antes de Mim*.
+
+### Textos
+
+**Função:** dar ao arquivo de artigos uma casa própria, sem transformá-lo em apêndice dos livros.
+
+**Conteúdo:**
+- textos, ensaios e artigos migrados do blog;
 - participações selecionadas, incluindo podcasts quando houver curadoria e contexto.
 
 ### Agora
@@ -86,7 +92,7 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 
 ## Navegação
 
-**Início · Prática · Trajetória · Escrita · Agora · Contato**
+**Início · Prática · Trajetória · Livros · Textos · Agora · Contato**
 
 ## O que muda em relação ao site atual
 
