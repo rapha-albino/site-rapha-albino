@@ -30,6 +30,8 @@ test("preserves WordPress post slugs", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "Quando o trabalho perde o significado" })).toBeVisible();
   await expect(page.getByRole("heading", { name: /O crescimento não cria apenas complexidade/i })).toBeVisible();
   await expect(page.locator("article.article > img")).toHaveCount(0);
+  const widths = await page.locator("article.article h1, .article-content").evaluateAll((elements) => elements.map((element) => element.getBoundingClientRect().width));
+  expect(widths[1]).toBe(widths[0]);
   await expect(page.getByRole("link", { name: /voltar ao blog/i })).toHaveAttribute("href", "/blog/");
 });
 
