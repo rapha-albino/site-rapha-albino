@@ -54,6 +54,11 @@ test("now is a dated snapshot of the current practice", async ({ page }) => {
   await expect(page.getByText("Kodus", { exact: true })).toHaveCount(0);
 });
 
+test("trajectory grounds the practice in collective experience", async ({ page }) => {
+  await page.goto("/trajetoria/");
+  await expect(page.getByRole("img", { name: "Raphael Albino com outras pessoas em um encontro" })).toBeVisible();
+});
+
 test("the blog has its own page and contact uses the public address", async ({ page }) => {
   await page.goto("/blog/");
   await expect(page.getByRole("heading", { name: "Textos para continuar a conversa." })).toBeVisible();
