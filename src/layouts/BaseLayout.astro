@@ -16,10 +16,19 @@ const links = [["Prática", "/pratica/"], ["Trajetória", "/trajetoria/"], ["Liv
   </head>
   <body>
     <a class="skip" href="#conteudo">Pular para o conteúdo</a>
-    <header><a class="brand" href="/">raphael albino<span>.</span></a><nav aria-label="Principal">
+    <header><a class="brand" href="/">raphael albino<span>.</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu</button><nav id="menu-principal" aria-label="Principal">
       {links.map(([label, href]) => <a href={href} aria-current={current === href || activeSection === label ? "page" : undefined}>{label}</a>)}
     </nav></header>
     <main id="conteudo"><slot /></main>
     <footer><p>Raphael Albino, autor, professor e consultor.</p><p><a href="mailto:contato@rapha-albino.com.br">contato@rapha-albino.com.br</a> · <a href="https://www.linkedin.com/in/rapha-albino/">LinkedIn</a> · <a href="https://www.instagram.com/rapha_albino/">Instagram</a></p></footer>
+    <script is:inline>
+      const toggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector("#menu-principal");
+      toggle?.addEventListener("click", () => {
+        const open = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!open));
+        menu?.toggleAttribute("data-open", !open);
+      });
+    </script>
   </body>
 </html>

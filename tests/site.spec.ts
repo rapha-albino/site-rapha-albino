@@ -13,6 +13,17 @@ test("home presents the practice and its primary paths", async ({ page }) => {
   await expect(primary).toHaveCSS("color", "rgb(255, 255, 255)");
 });
 
+test("mobile navigation opens deliberately without horizontal overflow", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/");
+  const menu = page.locator("header").getByRole("button", { name: "Menu" });
+  await expect(menu).toHaveAttribute("aria-expanded", "false");
+  await menu.click();
+  await expect(menu).toHaveAttribute("aria-expanded", "true");
+  await expect(page.getByRole("link", { name: "Blog", exact: true })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+});
+
 test("preserves WordPress post slugs", async ({ page }) => {
   await page.goto("/quando-o-trabalho-perde-o-significado/");
   await expect(page.getByRole("heading", { name: "Quando o trabalho perde o significado" })).toBeVisible();
