@@ -64,7 +64,7 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 - *Dynamic Flow*;
 - *Antes de Mim*.
 
-### Textos
+### Blog
 
 **Função:** dar ao arquivo de artigos uma casa própria, sem transformá-lo em apêndice dos livros.
 
@@ -92,7 +92,7 @@ A trajetória deve aparecer como repertório em movimento: desenvolvimento, pesq
 
 ## Navegação
 
-**Início · Prática · Trajetória · Livros · Textos · Agora · Contato**
+**Início · Prática · Trajetória · Livros · Blog · Agora · Contato**
 
 ## O que muda em relação ao site atual
 

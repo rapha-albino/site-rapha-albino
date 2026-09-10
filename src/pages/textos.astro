@@ -1,6 +1,3 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import { posts, displayDate } from "../lib/blog";
-const all = await posts();
+return Astro.redirect("/blog/", 301);
 ---
-<BaseLayout title="Textos — Raphael Albino" description="Textos de Raphael Albino sobre sistemas, trabalho, tecnologia e pessoas."><section class="wrap"><p class="eyebrow">textos</p><h1>Textos para continuar a conversa.</h1><p class="lede">Um arquivo de ideias sobre sistemas, trabalho, tecnologia, pessoas e as escolhas que transformam a prática.</p><div class="posts">{all.map((post) => <article class="post"><time datetime={post.publishedAt}>{displayDate(post.publishedAt)}</time><h3><a href={`/${post.slug}/`}>{post.title}</a></h3></article>)}</div></section></BaseLayout>

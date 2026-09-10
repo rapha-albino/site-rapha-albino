@@ -4,7 +4,7 @@ import AxeBuilder from "@axe-core/playwright";
 test("home presents the practice and its primary paths", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Sentido, clareza e intervenções." })).toBeVisible();
-  for (const name of ["Prática", "Trajetória", "Livros", "Textos", "Agora", "Contato"]) {
+  for (const name of ["Prática", "Trajetória", "Livros", "Blog", "Agora", "Contato"]) {
     await expect(page.getByRole("link", { name, exact: true }).first()).toBeVisible();
   }
   await expect(page.getByRole("link", { name: /conhecer a flow climate/i })).toHaveAttribute("href", "https://flowclimate.com.br");
@@ -18,12 +18,14 @@ test("preserves WordPress post slugs", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "Quando o trabalho perde o significado" })).toBeVisible();
   await expect(page.getByRole("heading", { name: /O crescimento não cria apenas complexidade/i })).toBeVisible();
   await expect(page.locator("article.article > img")).toHaveCount(0);
+  await expect(page.getByRole("link", { name: /voltar ao blog/i })).toHaveAttribute("href", "/blog/");
 });
 
-test("texts have their own page and contact uses the public address", async ({ page }) => {
-  await page.goto("/textos/");
+test("the blog has its own page and contact uses the public address", async ({ page }) => {
+  await page.goto("/blog/");
   await expect(page.getByRole("heading", { name: "Textos para continuar a conversa." })).toBeVisible();
   await expect(page.getByRole("link", { name: "Quando o trabalho perde o significado" })).toBeVisible();
+  await expect(page.getByRole("link", { name: /ler texto/i }).first()).toBeVisible();
   await page.goto("/contato/");
   await expect(page.getByRole("link", { name: "Enviar um e-mail" })).toHaveAttribute("href", "mailto:contato@rapha-albino.com.br");
   await expect(page.locator("#conteudo").getByRole("link", { name: "Instagram" })).toHaveAttribute("href", "https://www.instagram.com/rapha_albino/");

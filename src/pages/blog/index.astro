@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { posts, displayDate } from "../../lib/blog";
+const all = await posts();
+---
+<BaseLayout title="Blog — Raphael Albino" description="Textos de Raphael Albino sobre sistemas, trabalho, tecnologia e pessoas." activeSection="Blog">
+  <section class="wrap">
+    <p class="eyebrow">blog</p>
+    <h1>Textos para continuar a conversa.</h1>
+    <p class="lede">Um arquivo de ideias sobre sistemas, trabalho, tecnologia, pessoas e as escolhas que transformam a prática.</p>
+    <div class="posts blog-list">{all.map((post) => <article class="post"><time datetime={post.publishedAt}>{displayDate(post.publishedAt)}</time><h2><a href={`/${post.slug}/`}>{post.title}</a></h2><a class="read-more" href={`/${post.slug}/`}>Ler texto <span aria-hidden="true">→</span></a></article>)}</div>
+  </section>
+</BaseLayout>
