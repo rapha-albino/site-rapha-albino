@@ -10,7 +10,7 @@ KEY="${UMBLER_SSH_KEY:-$HOME/.ssh/id_ed25519_umbler_rapha_albino}"
 TARGET="${UMBLER_TARGET:-public/}"
 
 npm run build
-rsync -az --delete-delay \
+rsync -azO --delete-delay \
   --exclude="temporary.html" \
   --exclude="wp-content/" \
   --exclude="wp-includes/" \
