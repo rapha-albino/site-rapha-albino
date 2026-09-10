@@ -4,7 +4,7 @@ import AxeBuilder from "@axe-core/playwright";
 test("home presents the practice and its primary paths", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Sentido, clareza e intervenções." })).toBeVisible();
-  for (const name of ["Prática", "Trajetória", "Livros", "Blog", "Agora", "Contato"]) {
+  for (const name of ["Prática", "Trajetória", "Livros", "Blog", "Conversas", "Agora", "Contato"]) {
     await expect(page.getByRole("link", { name, exact: true }).first()).toBeVisible();
   }
   await expect(page.locator('link[rel="icon"]')).toHaveAttribute("href", "/favicon.svg");
@@ -33,6 +33,13 @@ test("preserves WordPress post slugs", async ({ page }) => {
   const widths = await page.locator("article.article h1, .article-content").evaluateAll((elements) => elements.map((element) => element.getBoundingClientRect().width));
   expect(widths[1]).toBe(widths[0]);
   await expect(page.getByRole("link", { name: /voltar ao blog/i })).toHaveAttribute("href", "/blog/");
+});
+
+test("conversations bring together public writing and podcast appearances", async ({ page }) => {
+  await page.goto("/conversas/");
+  await expect(page.getByRole("heading", { name: "Conversas e publicações." })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Regular a IA é disputar quem organiza o nosso futuro" })).toHaveAttribute("href", "https://www.jota.info/opiniao-e-analise/artigos/regular-a-ia-e-disputar-quem-organiza-o-nosso-futuro");
+  await expect(page.locator('iframe[title="Participações de Raphael Albino em podcasts"]')).toBeVisible();
 });
 
 test("the blog has its own page and contact uses the public address", async ({ page }) => {
