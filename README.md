@@ -15,3 +15,16 @@ Arquitetura editorial definida em [mapa-editorial.md](mapa-editorial.md), materi
 ## Desenvolvimento
 
 Site estático em Astro. Execute `npm install`, `npm run dev`, `npm run build` ou `npm run test:e2e`.
+
+## Ambientes e publicação
+
+- **Homologação:** Vercel, em `https://site-rapha-albino.vercel.app`. É o ambiente para revisão antes de publicar.
+- **Produção:** Umbler, em `https://rapha-albino.com.br`.
+
+Depois de revisar a homologação, publique a mesma versão na produção com:
+
+```bash
+npm run deploy:production
+```
+
+O script gera `dist/` e sincroniza os arquivos estáticos via SSH. Os diretórios legados do WordPress permanecem excluídos até a Umbler removê-los.

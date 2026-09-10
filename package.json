@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "deploy:production": "sh scripts/deploy-umbler.sh"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

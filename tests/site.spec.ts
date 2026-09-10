@@ -7,6 +7,7 @@ test("home presents the practice and its primary paths", async ({ page }) => {
   for (const name of ["Prática", "Trajetória", "Livros", "Blog", "Agora", "Contato"]) {
     await expect(page.getByRole("link", { name, exact: true }).first()).toBeVisible();
   }
+  await expect(page.locator('link[rel="icon"]')).toHaveAttribute("href", "/favicon.svg");
   await expect(page.getByRole("link", { name: /conhecer a flow climate/i })).toHaveAttribute("href", "https://flowclimate.com.br");
   const primary = page.getByRole("link", { name: "Conheça minha prática" });
   await primary.hover();
