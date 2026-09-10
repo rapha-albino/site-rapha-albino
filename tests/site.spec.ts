@@ -44,6 +44,16 @@ test("conversations bring together public writing and podcast appearances", asyn
   await expect(page.locator('iframe[title="Participações de Raphael Albino em podcasts"]')).toBeVisible();
 });
 
+test("now is a dated snapshot of the current practice", async ({ page }) => {
+  await page.goto("/agora/");
+  await expect(page.getByRole("heading", { name: "O que ocupa minha prática agora." })).toBeVisible();
+  await expect(page.getByRole("img", { name: "Raphael Albino falando ao microfone durante uma apresentação" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Construindo" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Ensinando" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Escrevendo e conversando" })).toBeVisible();
+  await expect(page.getByText("Kodus", { exact: true })).toHaveCount(0);
+});
+
 test("the blog has its own page and contact uses the public address", async ({ page }) => {
   await page.goto("/blog/");
   await expect(page.getByRole("heading", { name: "Textos para continuar a conversa." })).toBeVisible();
