@@ -1,6 +1,12 @@
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^sobre/?$ /trajetoria/ [R=301,L]
+  RewriteRule ^category/metricas/?$ /blog/ [R=301,L]
+</IfModule>
+
 <IfModule mod_headers.c>
   Header always set Cache-Control "no-cache, no-store, must-revalidate"
   Header always set Pragma "no-cache"

@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/sobre", "destination": "/trajetoria/", "permanent": true },
+    { "source": "/sobre/", "destination": "/trajetoria/", "permanent": true },
+    { "source": "/category/metricas", "destination": "/blog/", "permanent": true },
+    { "source": "/category/metricas/", "destination": "/blog/", "permanent": true }
+  ]
+}
