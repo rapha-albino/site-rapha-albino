@@ -21,7 +21,13 @@ Site estático em Astro. Execute `npm install`, `npm run dev`, `npm run build` o
 - **Homologação:** Vercel, em `https://site-rapha-albino.vercel.app`. É o ambiente para revisão antes de publicar.
 - **Produção:** Umbler, em `https://rapha-albino.com.br`.
 
-Depois de revisar a homologação, publique a mesma versão na produção com:
+Publique primeiro em homologação:
+
+```bash
+npm run deploy:homologation
+```
+
+Depois de revisar essa versão, publique a mesma versão na produção com:
 
 ```bash
 npm run deploy:production
