@@ -8,6 +8,7 @@ test("home presents the practice and its primary paths", async ({ page }) => {
     await expect(page.getByRole("link", { name, exact: true }).first()).toBeVisible();
   }
   await expect(page.locator('link[rel="icon"]')).toHaveAttribute("href", "/favicon.svg");
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", "https://rapha-albino.com.br/images/og-raphael-albino.jpg");
   await expect(page.getByRole("link", { name: /conhecer a flow climate/i })).toHaveAttribute("href", "https://flowclimate.com.br");
   const primary = page.getByRole("link", { name: "Conheça minha prática" });
   await primary.hover();
@@ -39,6 +40,7 @@ test("conversations bring together public writing and podcast appearances", asyn
   await page.goto("/conversas/");
   await expect(page.getByRole("heading", { name: "Conversas e publicações." })).toBeVisible();
   await expect(page.getByRole("link", { name: "Regular a IA é disputar quem organiza o nosso futuro" })).toHaveAttribute("href", "https://www.jota.info/opiniao-e-analise/artigos/regular-a-ia-e-disputar-quem-organiza-o-nosso-futuro");
+  await expect(page.getByRole("img", { name: "Raphael Albino falando ao microfone diante de uma apresentação" })).toBeVisible();
   await expect(page.locator('iframe[title="Participações de Raphael Albino em podcasts"]')).toBeVisible();
 });
 
