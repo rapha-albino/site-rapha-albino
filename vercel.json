@@ -3,8 +3,6 @@
     { "source": "/sobre", "destination": "/trajetoria/", "permanent": true },
     { "source": "/sobre/", "destination": "/trajetoria/", "permanent": true },
     { "source": "/category/metricas", "destination": "/blog/", "permanent": true },
-    { "source": "/category/metricas/", "destination": "/blog/", "permanent": true },
-    { "source": "/livros", "destination": "/escrita/", "permanent": true },
-    { "source": "/livros/", "destination": "/escrita/", "permanent": true }
+    { "source": "/category/metricas/", "destination": "/blog/", "permanent": true }
   ]
 }
